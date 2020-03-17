@@ -1,13 +1,12 @@
-ËµÃ÷£º
-	1.ÎÄ¼şÇåµ¥£º
-		apache-tomcat-7.0.29.zip                               ////·şÎñÆ÷°²×°°ü£¬½âÑ¹¼´¿ÉÊ¹ÓÃ
-		RK SDK OTA°üÉú³É·½·¨.pdf			       ///ÃèÊöÈçºÎÉú³ÉandroidµÄ±ê×¼ota zip°ü
-		RK SDK Android4.0 OTA·şÎñÆ÷´î½¨¼°²úÆ·OTA¹¦ÄÜÅäÖÃ.pdf   ///ÃèÊöÈçºÎ´î½¨¿ÕÖĞÉı¼¶·şÎñÆ÷£¬ÒÔ¼°androidĞèÒª×öÄÄĞ©ÅäÖÃ¡£
-		RK29 SDK OTAÉı¼¶×îÖÕÓÃ»§²Ù×÷²½Öè.pdf		       ///ÃèÊö×îÖÕÓÃ»§ÈçºÎ½øĞĞÉı¼¶²Ù×÷¡£
+è¯´æ˜ï¼š
+	1.æ–‡ä»¶æ¸…å•ï¼š
+		apache-tomcat-7.0.29.zip                               ////æœåŠ¡å™¨å®‰è£…åŒ…ï¼Œè§£å‹å³å¯ä½¿ç”¨
+		RK SDK OTAåŒ…ç”Ÿæˆæ–¹æ³•.pdf			       ///æè¿°å¦‚ä½•ç”Ÿæˆandroidçš„æ ‡å‡†ota zipåŒ…
+		RK SDK Android4.0 OTAæœåŠ¡å™¨æ­å»ºåŠäº§å“OTAåŠŸèƒ½é…ç½®.pdf   ///æè¿°å¦‚ä½•æ­å»ºç©ºä¸­å‡çº§æœåŠ¡å™¨ï¼Œä»¥åŠandroidéœ€è¦åšå“ªäº›é…ç½®ã€‚
+		RK29 SDK OTAå‡çº§æœ€ç»ˆç”¨æˆ·æ“ä½œæ­¥éª¤.pdf		       ///æè¿°æœ€ç»ˆç”¨æˆ·å¦‚ä½•è¿›è¡Œå‡çº§æ“ä½œã€‚
 
-	2.ÖÕ¶Ë»úÆ÷±ØĞë°²×°ÔËĞĞRKUpdateService.apk£¬·ñÔòÎŞ·¨½¨Á¢Óë¸Ã·şÎñÆ÷µÄÍ¨ĞÅ¡£
+	2.ç»ˆç«¯æœºå™¨å¿…é¡»å®‰è£…è¿è¡ŒRKUpdateService.apkï¼Œå¦åˆ™æ— æ³•å»ºç«‹ä¸è¯¥æœåŠ¡å™¨çš„é€šä¿¡ã€‚
 	
-	3.ota·şÎñÆ÷Ä¿Ç°²¢²»ÍêÉÆ£¬½öÍ¨¹ı²úÆ·ĞÍºÅºÍÈí¼ş°æ±¾ºÅÀ´²éÕÒ¶ÔÓ¦Éı¼¶°ü£¬¹¦ÄÜµ¥Ò»£¬Èç¹ûÊ¹ÓÃ¹ı³ÌÖĞÓĞÈÎºÎĞèÇó¶¼¿ÉÒÔ·´À¡¸øÎÒ£¬ÓÊÏämmk@rock-chips.com¡£
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -15,9 +14,7 @@ Introductions:
  
 	1.file list:
 		apache-tomcat-7.0.29.zip                               ////Server installation package, decompression can use
-		RK SDK OTA°üÉú³É·½·¨.pdf			       ///Describe how to generate android standard ota zip package
+		RK SDK OTAåŒ…ç”Ÿæˆæ–¹æ³•.pdf			       ///Describe how to generate android standard ota zip package
 		RK SDK Android4.0 Ota server building and product ota function configuration.pdf   ///Describe how to set up the air upgrade servers, and the android need to do what configuration.
 
 	2.Terminal machine must be installed operation RKUpdateService. Apk, otherwise can't build and the server communication.
-
-	3.Ota server at present is not perfect, only through the product model and software version number to find the corresponding upgrade package, single function, if use process have any needs can feedback to me, mailbox mmk@rock-chips.com.
