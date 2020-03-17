@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description>
+	<Local country="CN" language="zh" >1.ota客户端升级. 2.增加描述信息的显示.</Local>
+	<!--the country 'others' must be placed at the end of list! -->
+	<Local country="others" language="others" >1.rkupdateservice.apk update.@#2.add description display.</Local>
+</description>

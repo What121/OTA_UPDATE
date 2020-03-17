@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifast>
+	<product name="a22" full_package_path="null" rkimage_path="null">
+		<version name="1.0.0" package_path="packages/a22/1.0.0/1.0.1.zip" />
+	</product>
+	<product name="TD8801" full_package_path="null" rkimage_path="null">
+		<version name="1.0.0" package_path="packages/TD8801/1.0.0/1.0.1.zip" />
+		<version name="1.0.1" package_path="packages/TD8801/1.0.1/1.0.2.zip" />
+		<version name="1.0.2" package_path="packages/TD8801/1.0.2/1.0.3.zip" />
+	</product>
+	<product name="rk3188" full_package_path="null" rkimage_path="null">
+		<version name="1.0.3" package_path="ftp://ecsaio:ecsaio@10.10.10.55:21/update.zip" package_size="387442688" description="packages/rk30sdk/1.0.0/description.xml"/>
+		<version name="1.0.0" package_path="packages/rk30sdk/1.0.0/1.0.1.zip" description="packages/rk30sdk/1.0.0/description.xml"/>
+		<version name="1.0.2" package_path="https://dl.dropboxusercontent.com/u/97129956/PI7100.C.00.00.07/update.zip" package_size="387442688" description="packages/rk30sdk/1.0.1/description.xml"/>
+	</product>
+	<product name="S7" full_package_path="null" rkimage_path="null">
+		<version name="Smartfren.androtab.v15" package_path="packages/S7/Smartfren.androtab.v15/Smartfren.androtab.v16.zip" />
+	    <version name="Smartfren.androtab.v16" package_path="packages/S7/Smartfren.androtab.v16/Smartfren.androtab.v17.zip" />
+	    <version name="Smartfren.androtab.v17" package_path="packages/S7/Smartfren.androtab.v17/Smartfren.androtab.v18.zip" />
+	</product>
+	<product name="FullAOSPonRk29sdk" full_package_path="null" rkimage_path="null">
+		<version name="1.0.0" package_path="packages/rk29sdk/1.0.0/1.0.1.zip" />
+		<version name="1.0.1" package_path="packages/rk29sdk/1.0.1/1.0.2.zip" />
+	</product>
+</manifast>
+

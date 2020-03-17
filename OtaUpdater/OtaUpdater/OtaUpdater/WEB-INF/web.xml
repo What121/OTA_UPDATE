@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the android ota update server</description>
+    <display-name>This is the android ota update server</display-name>
+    <servlet-name>OtaServlet</servlet-name>
+    <servlet-class>com.rockchip.ota.servlet.OtaServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the log manager</description>
+    <display-name>This is the log manager</display-name>
+    <servlet-name>Log4j</servlet-name>
+    <servlet-class>com.rockchip.ota.log.Log4j</servlet-class>
+    <init-param>
+   	  <param-name>log4j</param-name>
+      <param-value>WEB-INF/log4j.properties</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+
+
+  <servlet-mapping>
+    <servlet-name>OtaServlet</servlet-name>
+    <url-pattern>/android</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Log4j</servlet-name>
+    <url-pattern>/servlet/Log4j</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>

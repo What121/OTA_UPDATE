@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="OtaUpdater"
+  id="myeclipse.1346984598592"
+  context-root="/OtaUpdater"
+  j2ee-spec="6.0"
+  archive="OtaUpdater.war">
+  <attributes>
+    <attribute name="webrootdir" value="OtaUpdater" />
+  </attributes>
+</project-module>
+

@@ -1,0 +1,12 @@
+apk 包含多个分支，使用之前将分支切换至对应的SDK 平台上。
+如下操作：
+	1. 命令行输入 “git branch -a” 会有如下输出
+		remotes/origin/rk32/box/4.4/develop
+		remotes/origin/rk32/box/5.1/develop
+		remotes/origin/rk32/box/6.0/develop
+		remotes/origin/rk32/mid/4.4/develop
+		remotes/origin/rk32/mid/5.1/develop
+		remotes/origin/rk32/mid/6.0/develop
+		
+	2. 例如平台是Android 4.4 BOX
+		git checkout remotes/origin/rk32/box/4.4/develop
